@@ -67,25 +67,67 @@ Finally, the data is analyzed utilizing matplotlib plots and answers the questio
 
 ### 1.How many months exist on Mars?
 
-Using the df.month.nunique() we gathered that there were 12 months on Mars, with the following number of observations for each month:
+Using the <code>df.month.nunique()</code> we gathered that there were 12 months on Mars, with the following number of observations for each month:
 
-month
-1     174
-2     178
-3     192
-4     194
-5     149
-6     147
-7     142
-8     141
-9     134
-10    112
-11    138
-12    166
+<table>
+     <tr>
+        <th>Month</th>
+        <th>Number of Observations</th>
+    </tr>
+    <tr>
+        <th>1</th>
+        <td>174</td>
+    </tr>
+     <tr>
+        <th>2</th>
+        <td>178</td>
+    </tr>
+     <tr>
+        <th>3</th>
+        <td>192</td>
+    </tr>
+     <tr>
+        <th>4</th>
+        <td>194</td>
+    </tr>
+     <tr>
+        <th>5</th>
+        <td>149</td>
+    </tr>
+     <tr>
+        <th>6</th>
+        <td>147</td>
+    </tr>
+     <tr>
+        <th>7</th>
+        <td>142</td>
+    </tr>
+     <tr>
+        <th>8</th>
+        <td>141</td>
+    </tr>
+     <tr>
+        <th>9</th>
+        <td>134</td>
+    </tr>
+     <tr>
+        <th>10</th>
+        <td>112</td>
+    </tr>
+     <tr>
+        <th>11</th>
+        <td>138</td>
+    </tr>
+     <tr>
+        <th>12</th>
+        <td>166</td>
+    </tr>    
+</table>
+
 
 ### 2.How many Martian days(sols) worth of data exist in the scraped dataset?
 
-This was answered with the df['sol'].count() function to return 1867 Martian Days ('sols')
+This was answered with the <code>df['sol'].count()</code> function to return <b>1867 Martian Days ('sols')</b>
 
 ### 3.What are the coldest and warmest months on Mars?
 
@@ -97,8 +139,8 @@ The groupby object was then plotted into a bar chart using matplotlib. This visu
 
 The values were then sorted into the [temp_by_month_sorted.png](Visualizations/temp_by_month_sorted.png) file, leading the the following conclusions:
 
-Coldest Month: 3
-Warmest Month: 8
+<b>Coldest Month: 3</b>
+<b>Warmest Month: 8</b>
 
 ### 4.Which months have the highest/lowest average atmospheric pressures?
 
@@ -106,8 +148,8 @@ A similar group by object was created in this section (substiting pressure for m
 
 This chart illustrates the following trends in average pressure by month:
 
-Highest Pressure: 9
-Lowest Pressure: 6
+<b>Highest Pressure: 9</b>
+<b>Lowest Pressure: 6</b>
 
 ### 5.How many terrestrial days are in a martian year?
 
