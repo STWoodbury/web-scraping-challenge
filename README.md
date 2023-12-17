@@ -35,7 +35,7 @@ Once in a dataframe, the datatypes were changed to the appropriate type for each
 <table>
     <tr>
         <th>id</th>
-        <td>object></td>                          
+        <td>object</td>                          
     </tr>
     <tr>
         <th>terrestrial_date</th>    
