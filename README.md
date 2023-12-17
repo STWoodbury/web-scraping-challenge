@@ -139,7 +139,7 @@ The groupby object was then plotted into a bar chart using matplotlib. This visu
 
 The values were then sorted into the [temp_by_month_sorted.png](Visualizations/temp_by_month_sorted.png) file, leading the the following conclusions:
 
-<b>Coldest Month: 3</b>
+<b>Coldest Month: 3</b><br/>
 <b>Warmest Month: 8</b>
 
 ### 4.Which months have the highest/lowest average atmospheric pressures?
@@ -148,7 +148,7 @@ A similar group by object was created in this section (substiting pressure for m
 
 This chart illustrates the following trends in average pressure by month:
 
-<b>Highest Pressure: 9</b>
+<b>Highest Pressure: 9</b><br/>
 <b>Lowest Pressure: 6</b>
 
 ### 5.How many terrestrial days are in a martian year?
