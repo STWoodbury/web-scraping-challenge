@@ -4,7 +4,7 @@
 This repository uses splinter, beautiful soup, pandas, and matplotlib to scrape the following websites for information about Mars, then answer research questions with the scraped data:
 <ul>
     <li><a href='https://static.bc-edx.com/data/web/mars_news/index.html'>Mars Planet Science</a></li>
-    <li><a href='https://static.bc-edx.com/data/web/mars_facts/temperature.html'></a>Mars Temperature Data</li>
+    <li><a href='https://static.bc-edx.com/data/web/mars_facts/temperature.html'>Mars Temperature Data</a></li>
 </ul>
 
 ## Part 1: Mars News Website Scraping
